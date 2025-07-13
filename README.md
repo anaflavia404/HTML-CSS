@@ -1,5 +1,4 @@
 # html-css
-<!DOCTYPE html>
 <html lang="pt-BR">
 <body>
   <h1>Curso HTML5 e CSS3</h1>
