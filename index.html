@@ -6,73 +6,97 @@
     <link rel="shortcut icon" href="Modulo01/desafios/d005/imagens/icon_ana_octocat.png" type="image/x-icon">
     <title>Site da Ana</title>
     <style>
+        :root{
+            --cor01: #8f2ac9;
+            --cor02: #f4dff8;
+            --cor03: #AE6FC5;
+            --cor04: #ac80bd;
+            --cor05: #521777;
+            --cor06: #854ca9;
+            --cor07: #4f0978;
+        }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+            background: linear-gradient(to bottom, var(--cor02), var(--cor03));
             margin: 0;
             padding: 0;
-            color: #333;
         }
         header {
-            background-color: #6a1b9a;
+            background: linear-gradient(to bottom, var(--cor01), var(--cor07));
             color: white;
-            padding: 2rem;
+            padding: 32px;
             text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            box-shadow: 4px 7px 15px #b799bc;
+        }
+        header > p{
+            text-shadow: 2px 2px 6px #220732;
         }
         main {
-            padding: 2rem;
+            padding: 32px;
         }
         h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 40px;
+            text-shadow: 2px 2px 6px #2c0a40;
         }
         h2 {
-            color: #4a148c;
-            border-bottom: 2px solid #4a148c;
-            padding-bottom: 0.3rem;
+            color: var(--cor07);
+            border-bottom: 2px solid var(--cor06);
+            padding-bottom: 4.8px;
         }
         h3 {
-            margin-top: 1rem;
-            color: #7b1fa2;
+            margin-top: 16px;
+            color: var(--cor06);
         }
         ul {
             list-style-type: none;
-            padding-left: 1rem;
+            padding-left: 16px;
+            columns: 2;
         }
         li {
-            margin: 0.3rem 0;
+            margin: 4.8px 0;
         }
-        a {
+        ul > li > a {
             text-decoration: none;
-            color: #1a237e;
+            color: var(--cor05);
             font-weight: bold;
         }
-        a:hover {
+        ul > li > a:hover {
             text-decoration: underline;
-            color: #0d47a1;
+            color: var(--cor04);
         }
         section {
             background-color: white;
             border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 16px;
+            margin-bottom: 32px;
+            box-shadow: 5px 5px 8px rgba(0,0,0,0.1);
+        }
+        .modulo3{
+            margin-bottom: 10px;
+            padding-bottom: 2px;
         }
         footer{
-            background-color: #ddd;
+            background-color: var(--cor03);
+            color: white;
             text-align: center;
-            padding: 1rem;
-            font-size: .9rem;
-            margin-top: 2rem;
+            padding: 1px;
+            font-size: 12px;
+        }
+        footer > p > a{
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+        footer > p > a:hover{
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Site da Ana</h1>
-        <p>Exercícios de HTML5 e CSS3 do Curso em Vídeo 🩵💜
-</p>
+        <p>Curso de HTML5 e CSS3 do Curso em Vídeo 🩵</p>
     </header>
     <main>
         <section>
@@ -136,12 +160,12 @@
                 <li><a href="Modulo02/desafios/d010/index.html">d010</a></li>
             </ul>
         </section>
-        <section>
+        <section class="modulo3">
             <h2>Módulo 3</h2>
         </section>
     </main>
     <footer>
-        <p>Ana Flávia</p>
+        <p>Site Desenvolvido por <a href="https://www.instagram.com/ana010.40/" target="_blank" rel="external">Ana Flávia 🔗</a></p>
     </footer>
 </body>
 </html>
