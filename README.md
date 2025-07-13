@@ -1,10 +1,9 @@
 # html-css
-Curso de HTML5 e CSS3 do Curso em Vídeo
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Curso HTML e CSS</title>
+  <title>Curso HTML5 e CSS3</title>
 </head>
 <body>
   <h1>Curso HTML e CSS</h1>
